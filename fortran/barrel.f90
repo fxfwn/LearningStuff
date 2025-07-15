@@ -1,7 +1,7 @@
 program barrel
     implicit none
 
-    real :: pi
+    real, parameter :: pi = 3.1415927
     real :: radius
     real :: height
     real :: area
@@ -9,8 +9,6 @@ program barrel
     real :: liters
     real :: floz
     real :: gallons
-
-    pi = 3.1415927
 
     print *, 'Enter barrel base radius:'
     read (*,*) radius
