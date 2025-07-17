@@ -24,7 +24,7 @@ int main()
     volume  = pi * pow(radius, 2) * height;
     liters  = volume / 1000.0;
     floz    = liters * 0.264172;
-    gallons = flox / 128.0;
+    gallons = floz / 128.0;
 
     //print results
     printf("The barrel base radius is %lf mm.\n", radius);
