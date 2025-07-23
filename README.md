@@ -20,4 +20,5 @@ This repository includes practice code in the following languages:
 - `Haskell`
 - `Mouse`
 - `Ada`
+- `Lua`
 - some `C++` classes and functions for later use
