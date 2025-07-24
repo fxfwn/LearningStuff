@@ -17,7 +17,7 @@ begin
 	Ada.Text_IO.Put_Line ("Enter the barrel base radius in milimeters: ");
 	Ada.Text_IO.Get_Line (radius);
 	Ada.Text_IO.Put_Line ("Enter the height of the barrel in milimeters: ");
-	Ada.Text_IO.Put_Line (height);
+	Ada.Text_IO.Get_Line (height);
 	
 	--calculate results
 	area := 2 * pi * (radius + height);
