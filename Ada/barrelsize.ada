@@ -22,9 +22,9 @@ begin
 	--calculate results
 	area := 2 * pi * (radius + height);
 	volume := pi * radius ** 2 * height;
-	liters := volume / 1000.0;
-	floz := liters * 0.264172;
-	gallons := floz / 128.0;
+	liters := volume / 1000.0; --conversion Volume to Liters (factor: 1000)
+	floz := liters * 0.264172; --conversion Liters to fluid ounces (factor: 0.264172)
+	gallons := floz / 128.0; --conversion fluid ounces to gallons (factor: 128)
 	
 	--print results
 	Ada.Text_IO.Put_Line ("The base radius of the barrel in milimeters is:");
