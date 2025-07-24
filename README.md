@@ -22,3 +22,6 @@ This repository includes practice code in the following languages:
 - `Ada`
 - `Lua`
 - some `C++` classes and functions for later use
+
+## Important Note:
+If you find amy typos, errors or want to suggest something, please open an issue about it. Thank you.
