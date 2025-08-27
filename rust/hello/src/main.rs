@@ -25,7 +25,6 @@ fn test_gcd()
 
 fn main()
 {
-    println!("Hello, world!");
     let mut numbers= Vec::new();
 
     for arg in env::args().skip(1)
