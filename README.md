@@ -1,5 +1,5 @@
 # LearningStuff
-A repository for learning projects in Julia and other languages
+A repository of example code snippets in different Programming languages. This repository is for educational and reference purposes only, fostering language exploration among beginners or software engineering apprentices.
 
 # Included languages
 This repository includes practice code in the following languages:
