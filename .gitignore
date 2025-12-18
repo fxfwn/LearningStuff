@@ -1,0 +1,5 @@
+*.pdb
+*.exe
+/rust/*/target
+*.o
+*.hi
