@@ -36,7 +36,7 @@ func main()
         return
     }
 
-    let results = calcVolume(h: h, r: r)
+    let results: Double = calcVolume(h: h, r: r)
     print("Volume in ccm is: \(results.volume) ccm")
     print("Volume in Liters is: \(results.liters) L")
     print("Volume in Fluid Ounces is: \(results.floz) floz")
