@@ -21,6 +21,7 @@ This repository includes practice code in the following languages:
 - `Mouse`
 - `Ada`
 - `Lua`
+- `Free Pascal`
 - some `C++` classes and functions for later use
 
 ## Important Note:
