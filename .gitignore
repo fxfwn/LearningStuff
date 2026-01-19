@@ -4,3 +4,7 @@
 *.o
 *.hi
 WARP.md
+*.lib
+*.exp
+.vscode/
+.idea/

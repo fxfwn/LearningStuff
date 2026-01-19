@@ -24,19 +24,19 @@ func calcArea(h: Double, r: Double) -> Double
 func main()
 {
     print("Enter a height value in centimeters: ")
-    let height = readLine()
+    let height: String = readLine()
     guard let heightUnwrapped = height, let h = Double(heightUnwrapped) else {
         print("Invalid height input, defaulting to 0")
         return
     }
     print("Enter a radius in centimeters: ")
-    let radius = readLine()
+    let radius: String = readLine()
     guard let radiusUnwrapped = radius, let r = Double(radiusUnwrapped) else {
         print("Invalid radius input, defaulting to 0")
         return
     }
 
-    let results: Double = calcVolume(h: h, r: r)
+    let results: (Double, Double, Double, Double) = calcVolume(h: h, r: r)
     print("Volume in ccm is: \(results.volume) ccm")
     print("Volume in Liters is: \(results.liters) L")
     print("Volume in Fluid Ounces is: \(results.floz) floz")
