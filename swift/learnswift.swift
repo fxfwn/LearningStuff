@@ -34,3 +34,9 @@ let someNames = NSMutableArray
 
 someNames.add("Baz")
 someNames
+
+let names: [String] = ["Anna", "Alex", "Brian", "Jack", "Skyler"]
+for name in names
+{
+    print("Hello, \(name)!")
+}
